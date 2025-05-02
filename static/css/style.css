@@ -1,0 +1,132 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.loader {
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Fallback for unsupported browsers */
+    -webkit-backdrop-filter: blur(10px);
+    /* Vendor prefix for Safari */
+    backdrop-filter: blur(10px);
+    /* Standard property */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.result-image {
+    object-fit: cover;
+    height: 220px;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.detection-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.detection-item span {
+    font-size: 0.95rem;
+    color: #e0f2fe;
+}
+
+.detection-item:last-child {
+    border-bottom: none;
+}
+
+.alert {
+    padding: 1rem;
+    border-radius: 0.75rem;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Fallback for unsupported browsers */
+    -webkit-backdrop-filter: blur(5px);
+    /* Vendor prefix for Safari */
+    backdrop-filter: blur(5px);
+    /* Standard property */
+}
+
+.alert-success {
+    background: rgba(34, 197, 94, 0.2);
+    color: #bbf7d0;
+}
+
+.alert-error {
+    background: rgba(239, 68, 68, 0.2);
+    color: #fecaca;
+}
+
+/* Animations */
+.animate-fade-in {
+    animation: fadeIn 1s ease-out;
+}
+
+.animate-fade-in-delay {
+    animation: fadeIn 1s ease-out 0.3s;
+    animation-fill-mode: backwards;
+}
+
+.animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .card {
+        margin: 0 0.5rem;
+    }
+
+    .result-image {
+        height: 180px;
+    }
+
+    .detection-item span {
+        font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionAI Analyzer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-b from-blue-900 to-blue-700 text-white font-poppins">
+    <div id="particles-js" class="absolute inset-0 z-0"></div>
+
+    <header class="relative z-10 py-6">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight animate-fade-in">
+                VisionAI Analyzer
+            </h1>
+            <p class="mt-3 text-lg md:text-xl text-blue-200 animate-fade-in-delay">
+                Unleash the Power of Generative AI for Image Analysis
+            </p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12 relative z-10">
+        <section class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-2xl shadow-xl mb-12 animate-slide-up">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-blue-100">
+                Upload Your CSV File
+            </h2>
+            <p class="mb-6 text-blue-200">
+                Upload a CSV file containing Instagram profile URLs in a column named 'User Homepage'. Our AI will analyze the profile pictures and display stunning results.
+            </p>
+            <form id="uploadForm" enctype="multipart/form-data" class="space-y-4">
+                <input type="file" id="fileInput" name="file" accept=".csv" class="w-full p-3 bg-blue-800 bg-opacity-50 border border-blue-400 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-300 transition">
+                <button type="submit" class="w-full bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 transition transform hover:scale-105">
+                    Start Analysis
+                </button>
+            </form>
+            <div id="uploadMessage" class="mt-4"></div>
+        </section>
+
+        <section id="resultsSection" class="hidden">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-blue-100 animate-fade-in">
+                Analysis Results
+            </h2>
+            <div id="resultsContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </section>
+
+        <div id="loadingIndicator" class="hidden text-center py-8">
+            <div class="loader w-12 h-12 border-4 border-blue-300 border-t-transparent rounded-full animate-spin mx-auto"></div>
+            <p class="mt-4 text-blue-200">Analyzing images with AI, please wait...</p>
+        </div>
+    </main>
+
+    <footer class="relative z-10 bg-blue-900 bg-opacity-80 py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-blue-200">© 2025 VisionAI Analyzer. Powered by xAI.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="/static/js/script.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: ['#ffffff', '#bfdbfe', '#93c5fd'] },
+                shape: { type: 'circle' },
+                opacity: { value: 0.5, random: true },
+                size: { value: 3, random: true },
+                line_linked: { enable: true, distance: 150, color: '#bfdbfe', opacity: 0.4, width: 1 },
+                move: { enable: true, speed: 2, direction: 'none', random: false, straight: false, out_mode: 'out', bounce: false }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' }, resize: true },
+                modes: { repulse: { distance: 100, duration: 0.4 }, push: { particles_nb: 4 } }
+            },
+            retina_detect: true
+        });
+    </script>
+</body>
+</html>

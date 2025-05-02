@@ -1,0 +1,30 @@
+image_path,username,cowboy_hat,bikini,horse,tractor,one_man,one_woman,hair_color,face_count,caption,nsfw_score,nsfw_category
+output\laurahenley.jpg,laurahenley,False,False,False,False,False,False,unknown,2,two women standing in front of a house,0.05291872099041939,Safe
+output\alanababyocon.jpg,alanababyocon,True,False,False,False,False,True,unknown,1,a woman wearing a cowboy hat and a black shirt,0.05654915049672127,Safe
+output\shatty615.jpg,shatty615,False,False,False,False,False,True,black,1,a man wearing a pair of goggles,0.06468016654253006,Safe
+output\kyleigh_nelson.jpg,kyleigh_nelson,False,False,False,False,False,True,unknown,1,a woman in a white sweater and jeans standing in a park,0.05399756878614426,Safe
+output\crane.emory.jpg,crane.emory,False,False,False,False,False,True,unknown,1,a girl standing in a field with her hands on her hips,0.057387664914131165,Safe
+output\cooper_conley22.jpg,cooper_conley22,False,False,False,False,False,False,unknown,0,a white truck parked in a field,0.05503516271710396,Safe
+output\zachthompson44.jpg,zachthompson44,False,False,False,False,True,False,unknown,1,a man in a red jersey and hat,0.026178205385804176,Safe
+output\erin_uhhh.jpg,erin_uhhh,False,False,False,False,False,False,unknown,0,a woman taking a selfie,0.04892230033874512,Safe
+output\emma.jarrell07.jpg,emma.jarrell07,False,False,False,False,False,False,unknown,0,a woman standing in a river,0.05788695439696312,Safe
+output\christianirabien.jpg,christianirabien,False,False,False,False,False,False,unknown,0,a man in a hat and white shirt standing in a field,0.03418785706162453,Safe
+output\alexcummings609.jpg,alexcummings609,False,False,False,False,True,False,unknown,1,a man in sunglasses on a boat,0.05181312561035156,Safe
+output\ladd_sosebee.jpg,ladd_sosebee,False,False,False,False,False,True,unknown,1,a man holding a bow and arrow,0.05727872624993324,Safe
+output\jolee.kelley.jpg,jolee.kelley,False,False,False,False,False,True,unknown,1,a woman standing in a field with a dog,0.05284427851438522,Safe
+output\ashley_paige_thompson.jpg,ashley_paige_thompson,False,False,False,False,False,False,unknown,2,a woman with glasses and a book,0.061753787100315094,Safe
+output\kegan__rupp.jpg,kegan__rupp,False,False,False,False,False,False,unknown,0,a tree with pink flowers in the fore of the water,0.03221999108791351,Safe
+output\foster_e_stevens.jpg,foster_e_stevens,False,False,False,False,False,False,unknown,2,two women are standing in a room with their arms up,0.0504300482571125,Safe
+output\_colleenmurray_.jpg,_colleenmurray_,False,False,False,False,False,False,unknown,0,a woman in a car with sunglasses on,0.047200340777635574,Safe
+output\anabeatrizferrari5.jpg,anabeatrizferrari5,False,False,False,False,False,True,unknown,1,a woman in a red dress is taking a selfie,0.054395321756601334,Safe
+output\lola_bunny666.jpg,lola_bunny666,False,False,False,False,False,True,unknown,1,a woman in a car with her hair pulled,0.04309974983334541,Safe
+output\myleej_enki.jpg,myleej_enki,False,False,False,False,False,False,black,2,a girl wearing a pink hat,0.04134263098239899,Safe
+output\lizcox04.jpg,lizcox04,False,False,False,False,False,True,unknown,1,a woman in a blue dress standing in a field,0.06225252151489258,Safe
+output\annikaseshun.jpg,annikaseshun,True,False,False,False,True,False,unknown,1,a woman wearing a cowboy hat in a field,0.05334341526031494,Safe
+output\kate.c_20.jpg,kate.c_20,False,False,False,False,False,False,unknown,0,a woman in a pink dress standing on a bridge,0.061895642429590225,Safe
+output\brodie.mizer.jpg,brodie.mizer,False,False,False,False,False,True,unknown,1,a man in a suit and tie standing next to a boy in a bow tie,0.05693170800805092,Safe
+output\notorious_scg.jpg,notorious_scg,False,False,False,False,False,False,unknown,0,a man sitting on the ground in the woods,0.029746368527412415,Safe
+output\csanderson33.jpg,csanderson33,False,False,False,False,True,False,unknown,1,a boy standing in the woods near a stream,0.05259456858038902,Safe
+output\livijelin.jpg,livijelin,False,False,False,False,False,True,unknown,1,a group of people standing in a crowd,0.03328234329819679,Safe
+output\athens_on_tap.jpg,athens_on_tap,False,False,False,False,False,False,unknown,0,a logo for a bar,0.03205768018960953,Safe
+output\jenna_waldrip.jpg,jenna_waldrip,False,False,False,False,False,False,unknown,2,two women standing in a field with a truck behind them,0.04824930429458618,Safe
